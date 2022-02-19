@@ -1,7 +1,10 @@
 # github_branches / Github_HW2
 ____
 __1. На локальном репозитории сделать ветки для:__  
-__- Postman__ - '''git branch Postman'''  
+__- Postman__ - 
+'''
+git branch Postman
+'''  
 __- JMeter__ - '''git branch JMeter'''  
 __- Checklists__ - '''git branch Checklists'''  
 __- Bug_reports__ - '''git branch Bug_reports'''  
