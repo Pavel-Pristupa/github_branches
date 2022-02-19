@@ -29,6 +29,7 @@ Attachments:
   
 ->Esc  
 ->`:wq`  
+  
 __4. Запушить структуру багрепорта на внешний репозиторий__  
 `git add . && git commit -m "bug_report_structure"`  
 `git push`  
@@ -40,8 +41,8 @@ __6. Запушить main на внешний репозиторий.__
 __7. В ветке CheckLists набросать структуру чек листа.__  
 `git checkout Checklists`  
 `vim check_list_structure.txt`  
-->i  
-  
+->i   
+    
 Columns:  
 ID  
 Title  
@@ -56,7 +57,7 @@ __8. Запушить структуру на внешний репозитор�
 `git add . && git commit -m "checklist structure"`  
 `git push`  
 __9. На внешнем репозитории сделать Pull Request ветки CheckLists в main__  
-go to https://github.com/Pavel-Pristupa/github_branches  
+->go to https://github.com/Pavel-Pristupa/github_branches  
 ->Pull requests  
 ->Compare & pull request  
 ->Create pull request  
