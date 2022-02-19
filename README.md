@@ -1,19 +1,19 @@
 # github_branches / Github_HW2
 ____
 __1. На локальном репозитории сделать ветки для:__  
-__- Postman__ - `git branch Postman`  
-__- JMeter__ - `git branch JMeter'  
-__- Checklists__ - `git branch Checklists`  
-__- Bug_reports__ - `git branch Bug_reports`  
-__- SQL__ - `git branch SQL`  
-__- Charles__ - `git branch Charles`  
-__- Mobile_testing__ - `git branch Mobile_testing`  
+__- Postman__ - `git branch Postman`    
+__- JMeter__ - `git branch JMeter`    
+__- Checklists__ - `git branch Checklists`    
+__- Bug_reports__ - `git branch Bug_reports`   
+__- SQL__ - `git branch SQL`    
+__- Charles__ - `git branch Charles`     
+__- Mobile_testing__ - `git branch Mobile_testing`    
   
 __2. Запушить все ветки на внешний репозиторий__  
-'''git push -u origin Postman JMeter Checklists Bug_reports SQL Charles Mobile_testing'''  
+`git push -u origin Postman JMeter Checklists Bug_reports SQL Charles Mobile_testing`  
 __3. В ветке Bug_reports сделать текстовый документ со структурой баг репорта__  
-'''git checkout Bug_reports'''  
-'''vim bug_report_structure.txt'''  
+`git checkout Bug_reports`  
+`vim bug_report_structure.txt`  
 ->i  
   
 ID:  
