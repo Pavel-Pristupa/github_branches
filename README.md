@@ -28,18 +28,18 @@ Priority:
 Attachments:  
   
 ->Esc  
-->''':wq'''  
+->`:wq`  
 __4. Запушить структуру багрепорта на внешний репозиторий__  
-'''git add . && git commit -m "bug_report_structure"'''  
-'''git push'''  
+`git add . && git commit -m "bug_report_structure"`  
+`git push`  
 __5. Вмержить ветку Bug_reports в Main__  
-'''git checkout main''' ___OR___ '''git checkout -'''  
-'''git merge Bug_reports'''  
+`git checkout main` ___OR___ `git checkout -`  
+`git merge Bug_reports`  
 __6. Запушить main на внешний репозиторий.__  
-'''git push'''  
+`git push`  
 __7. В ветке CheckLists набросать структуру чек листа.__  
-'''git checkout Checklists'''  
-'''vim check_list_structure.txt'''  
+`git checkout Checklists`  
+`vim check_list_structure.txt`  
 ->i  
   
 Columns:  
@@ -51,10 +51,10 @@ Status
 Comments  
   
 ->Esc  
-->''':wq'''  
+->`:wq`  
 __8. Запушить структуру на внешний репозиторий__  
-'''git add . && git commit -m "checklist structure"'''  
-'''git push'''  
+`git add . && git commit -m "checklist structure"`  
+`git push`  
 __9. На внешнем репозитории сделать Pull Request ветки CheckLists в main__  
 go to https://github.com/Pavel-Pristupa/github_branches  
 ->Pull requests  
@@ -62,6 +62,6 @@ go to https://github.com/Pavel-Pristupa/github_branches
 ->Create pull request  
 ->Merge pull request -> Confirm merge  
 __10. Синхронизировать Внешнюю и Локальную ветки Main__  
-'''git checkout main''' ___OR___ '''git checkout -'''  
-'''git fetch'''  
-'''git pull'''  
+`git checkout main` ___OR___ `git checkout -`  
+`git fetch`  
+`git pull`  
