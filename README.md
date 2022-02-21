@@ -16,7 +16,7 @@ __3. В ветке Bug_reports сделать текстовый докумен�
 `vim bug_report_structure.txt`  
 ->i  
   
-ID:  
+*ID:  
 Summary:  
 Description:  
 STR:  
@@ -25,7 +25,7 @@ ER:
 Reporter:  
 Assignee:  
 Priority:  
-Attachments:  
+Attachments:*  
   
 ->Esc  
 ->`:wq`  
